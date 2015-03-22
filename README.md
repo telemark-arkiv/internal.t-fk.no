@@ -1,4 +1,4 @@
-#api.t-fk.no
+#internal.t-fk.no
 
 The internal API for Telemark fylkeskommune
 
