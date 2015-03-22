@@ -1,0 +1,51 @@
+[
+ {
+  "personnummer": "123456",
+  "firstname": "Geir",
+  "lastname": "Gåsodden",
+  "email": "gg@gasodden.net",
+  "phone": "95552759",
+  "address": "Kjærlighetsstien 24, 3681 Notodden",
+  "school": "Notodden videregående skole, Heddalsveien 4, 3674 Notodden",
+  "calculatedDistance": "2.8 km",
+  "manualDistance": "",
+  "manualDescription": ""
+ },
+ {
+  "personnummer": "178495675838",
+  "firstname": "Gullik",
+  "lastname": "Busknes",
+  "email": "gullik@gasodden.net",
+  "phone": "95552759",
+  "address": "Kongsbergveien 79, 3681 Notodden",
+  "school": "Notodden videregående skole, Heddalsveien 4, 3674 Notodden",
+  "calculatedDistance": "2.5 km",
+  "manualDistance": "7 km",
+  "manualDescription": "Dere er dumme!"
+ },
+ {
+  "personnummer": "765432178753",
+  "firstname": "Dølle",
+  "lastname": "Døkk",
+  "email": "dokk@gasodden.net",
+  "phone": "95 55 27 59",
+  "address": "Sætregata 24, 3681 Notodden",
+  "school": "Notodden videregående skole, Heddalsveien 4, 3674 Notodden",
+  "calculatedDistance": "2.1 km",
+  "manualDistance": "",
+  "manualDescription": ""
+ },
+ {
+  "personnummer": "26118611111",
+  "firstname": "Eivind",
+  "lastname": "Fotfjes",
+  "email": "Eivind.fot@fjes.no",
+  "phone": "41514965",
+  "address": "Grenlandsgata 35b",
+  "school": "Porsgrunn videregående skole, Kjølnes Ring 58, 3918 Porsgrunn",
+  "calculatedDistance": "2.2 km",
+  "manualDistance": "2.3",
+  "manualDescription": "Vil ikke gå i porsgrunnsgetto'n"
+ }
+]
+

@@ -6,20 +6,8 @@ var config = require('../config');
 var DB = mongojs(config.DB);
 var dataList = [
   {
-    'db':DB.collection('municipalities'),
-    'file': 'init/data/municipalities.json'
-  },
-  {
-    'db':DB.collection('departments'),
-    'file': 'init/data/departments.json'
-  },
-  {
-    'db':DB.collection('journals'),
-    'file': 'init/data/journals.json'
-  },
-  {
-    'db':DB.collection('recruitments'),
-    'file': 'init/data/recruitments.json'
+    'db':DB.collection('applications'),
+    'file': 'init/data/applications.json'
   }
 ];
 

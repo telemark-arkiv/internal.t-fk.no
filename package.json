@@ -1,6 +1,6 @@
 {
-  "name": "api.t-fk.no",
-  "description": "API for Telemark fylkeskommune",
+  "name": "internalapi.t-fk.no",
+  "description": "Internal API for Telemark fylkeskommune",
   "version": "1.5.0",
   "private": true,
   "author": {
@@ -22,10 +22,7 @@
   },
   "dependencies": {
     "hapi": "^8.1.0",
-    "mongojs": "^0.18.1",
-    "util-api-cipher": "git+https://github.com/telemark/util-api-cipher.git",
-    "tfk-api-forms": "git+https://github.com/zrrrzzt/tfk-api-forms.git",
-    "tfk-api-distance": "git+https://github.com/zrrrzzt/tfk-api-distance.git"
+    "mongojs": "^0.18.1"
   },
   "devDependencies": {
     "jscs": "^1.10.0",

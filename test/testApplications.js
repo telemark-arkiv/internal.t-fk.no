@@ -6,7 +6,7 @@ var config = require('../config');
 
 request = request('http://localhost:' + config.SERVER_PORT);
 
-describe('Server municipality', function() {
+describe('Server applications', function() {
 
   before(function() {
     server.start();
@@ -16,20 +16,20 @@ describe('Server municipality', function() {
     server.stop();
   });
 
-  describe('GET /municipalities', function() {
+  describe('GET /applications', function() {
     it('respond with json', function(done) {
       request
-        .get('/municipalities')
+        .get('/applications')
         .set('Accept', 'application/json')
         .expect('Content-Type', /json/)
         .expect(200, done);
     });
   });
 
-  describe('GET /municipality/0805', function() {
+  describe('GET /application/35', function() {
     it('respond with json', function(done) {
       request
-        .get('/municipality/0805')
+        .get('/application/35')
         .set('Accept', 'application/json')
         .expect('Content-Type', /json/)
         .expect(200, done);
