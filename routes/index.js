@@ -1,6 +1,6 @@
 'use strict';
 
-var handlers = require('../handlers/public');
+var handlers = require('../handlers');
 var routes = [
   {
     method: 'GET',

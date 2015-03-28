@@ -2,8 +2,7 @@
 
 var message = {
   message: 'Hello, I\'m your internal API',
-  applications: '/applications',
-  application: '/application/<applicationId>',
+  docs: '/docs',
   quote: 'Thank you for your cooperation'
 };
 

@@ -22,6 +22,8 @@
   },
   "dependencies": {
     "hapi": "^8.4.0",
+    "joi": "^6.0.8",
+    "lout": "^6.2.1",
     "mongojs": "^0.18.2"
   },
   "devDependencies": {
