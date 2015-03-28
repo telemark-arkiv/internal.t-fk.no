@@ -1,10 +1,12 @@
 'use strict';
 
-var publicRoutes = require('./public');
-var applicationsRoutes = require('./applications');
-var routes = [];
-
-routes = routes.concat(publicRoutes);
-routes = routes.concat(applicationsRoutes);
+var handlers = require('../handlers/public');
+var routes = [
+  {
+    method: 'GET',
+    path: '/',
+    handler: handlers.getPublicResponse
+  }
+];
 
 module.exports = routes;
