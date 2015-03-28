@@ -1,7 +1,7 @@
 {
-  "name": "internalapi.t-fk.no",
+  "name": "internal.t-fk.no",
   "description": "Internal API for Telemark fylkeskommune",
-  "version": "1.5.0",
+  "version": "1.0.0",
   "private": true,
   "author": {
     "name": "Geir Gåsodden",
@@ -18,15 +18,15 @@
   "scripts": {
     "start": "node index.js",
     "test": "mocha --reporter spec test/*.js",
-    "init-dev": "node 'init/index.js'"
+    "setup": "node setup.js"
   },
   "dependencies": {
-    "hapi": "^8.1.0",
-    "mongojs": "^0.18.1"
+    "hapi": "^8.4.0",
+    "mongojs": "^0.18.2"
   },
   "devDependencies": {
-    "jscs": "^1.10.0",
-    "mocha": "^2.1.0",
+    "jscs": "^1.12.0",
+    "mocha": "^2.2.1",
     "supertest": "^0.15.0"
   }
 }
