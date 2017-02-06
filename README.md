@@ -1,5 +1,7 @@
 #internal.t-fk.no
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/telemark/internal.t-fk.no.svg)](https://greenkeeper.io/)
+
 The server for Telemark fylkeskommune's internal APIs.
 
 Every API is a separate plug-in.
